@@ -1,7 +1,10 @@
 # HUP acceptable io.Writer
 
+This repository is a fork of https://github.com/koron/hupwriter
+
+
 ```go
-import "github.com/koron/hupwriter"
+import "github.com/mokelab-go/hupwriter"
 import "log"
 
 h := hupwriter.New("/var/log/myapp.log", "/var/pid/myapp.pid")
